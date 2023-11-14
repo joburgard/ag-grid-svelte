@@ -37,6 +37,7 @@
     "build": "vite build",
     "package": "svelte-package",
     "preview": "vite preview",
+		"prepare": "npm run package",
     "test": "playwright test",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
