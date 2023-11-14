@@ -30,7 +30,7 @@
   },
   "peerDependencies": {
     "ag-grid-community": "^28 || ^29 || ^30",
-    "svelte": "^3"
+    "svelte": "^3 || ^4"
   },
   "scripts": {
     "dev": "vite dev",
